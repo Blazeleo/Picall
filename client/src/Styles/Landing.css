@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    background: var(--greyLight-1) !important;
+  }
+  
+
+.contain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttn1{
+    width: 20vw;
+    background-color: #791cf8 !important;
+    margin-left:2vw;
+}
+
+.form_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.join_cont{
+    display:flex;
+    flex-direction: row;
+}
+
+.or{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+}
+
+.room{
+    background-color: #20aa3b !important;
+}
